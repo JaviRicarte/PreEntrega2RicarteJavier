@@ -513,13 +513,19 @@ footer {
     .title-edit h2 {
         font-size: 1.8rem;
     }
+    .img {
 
+        width: 18.5%;
+        margin: 0.1rem;
+        border-radius: 15px;
+        border: 0.1rem solid rgb(183, 255, 0)
+    }
     .cards {
-        width: 7rem;
+        width: 8.5rem;
     }
 
     .style-title h3 {
-        font-size: 0.5rem;
+        font-size: 0.9rem;
     }
 
     .cards div {
@@ -527,12 +533,12 @@ footer {
     }
 
     .style__card h5 {
-        font-size: 0.6rem;
+        font-size: 0.9rem;
         color: #000000;
     }
 
     .third {
-        font-size: 0.5rem;
+        font-size: 0.7rem;
         padding: 0.3rem;
         margin-top: 0.1rem;
     }
@@ -558,7 +564,7 @@ footer {
     }
 
     .video-h3 .style-h3 {
-        font-size: 1rem;
+        font-size: 1.5rem;
         text-align: center;
         margin: 0.5rem
     }
