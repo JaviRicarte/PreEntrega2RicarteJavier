@@ -333,6 +333,7 @@ footer {
 }
 
 .grid-sobrenosotros .grid__imgsobre1 {
+    margin-top: 0.3rem;
     width: 100%;
     border-radius: 15px;
 }
@@ -366,6 +367,8 @@ footer {
 }
 
 .grid-sobrenosotros .grid__imgsobre4 {
+    display: flex;
+    justify-content: center;
     width: 100%;
     border-radius: 15px;
     margin-top: 1rem;
