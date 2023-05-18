@@ -15,59 +15,33 @@ a{
     background-image: url(../img/index2.png);
 }
 .navbar-brand{
-    
     font-size: 3rem;
-    color: rgb(0, 0, 0)00;
+    border: 0.1rem solid #3a2626;
+    border-radius: 20px;
+    
 }
 .navbar-nav .nav-item{
-    font-size: 1.5rem;
-    
+    font-size: 2rem;
+    margin-left:2rem;
+
+}
+.container-fluid a{
+    background: linear-gradient(to bottom, black, red) ;
+    -webkit-background-clip: text ;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
-
-/* MAIN    SUBTÍTULO 1,2 Y 3           */
-
-.description {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-
-}
-
-
-.description h2 {
-    font-size: 3rem;
-    color: rgb(210, 114, 17);
-    border-top: 0.1rem solid rgb(183, 255, 0);
-    border-bottom: 0.1rem solid rgb(183, 255, 0);
-    margin-bottom: 1rem;
-}
-
-.container-index {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-
-}
-
-.img {
-
-    width: 19.5%;
-    margin: 0.1rem;
-    border-radius: 15px;
-    border: 0.1rem solid rgb(183, 255, 0)
-}
-
-/* CARDS SUBTÍTULO */
+/* TÍTULO DE CARDS Y CARDS */         
 
 .title-edit h2 {
-    color: rgb(210, 114, 17);
-    border-top: 0.1rem solid rgb(183, 255, 0);
-    border-bottom: 0.1rem solid rgb(183, 255, 0);
-    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    border: dashed 0.1rem rgb(183, 255, 0);
+    font-size: 3rem;
     text-align: center;
     margin: 1rem;
+    background-image: url(../img/agamer.jpg);
 }
 
 .cards {
@@ -136,6 +110,7 @@ a{
 .third:hover {
     box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px rgb(183, 255, 0);
     color: #ffffff;
+    transform: scale(1.1);
 }
 
 
@@ -243,12 +218,14 @@ a{
 }
 
 .grid-footer .grid__faceinsta img {
-    width: 15%;
+    width: 13%;
     margin: 1rem;
-
-
+    transition: 0.5s;
+    
 }
-
+.grid-footer .grid__faceinsta img:hover{
+    transform: scale(1.3);
+}
 .grid-footer .grid__pagos {
 
     width: 100%;
@@ -268,8 +245,11 @@ footer {
 
 .grid-footer .grid__infoubi {
     margin: 1.5rem;
+    transition: 0.5s;
 }
-
+.grid-footer .grid__infoubi:hover{
+    transform: scale(1.3);
+}
 
 /*===========================================================================*/
 
