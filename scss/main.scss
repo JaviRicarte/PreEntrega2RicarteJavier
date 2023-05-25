@@ -436,28 +436,45 @@ footer {
 
 /* OFEERTAS*/
 
-.h2Ofert {
+h2{
+    color: #ffffff;
     text-align: center;
-    padding: 1rem;
+    font-size: 2.5rem;
+    background-image: url(../img/agamer.jpg);
+    border: dashed 0.1rem #b7ff00 ;
+    margin: 1rem;
+    border-radius: 15px;
+    span{
+        color: #b7ff00;
+        font-size: 3rem;
+    }
+}
+.style__card .ofert{
+    color: #ffffff;
+    background-color: #3498db;
+    
+}
+.ofert-style{
+    background-color: #000000;
+}
+i{
+    color: #ffffff;
 }
 
-.back-goku {
-    background-image: url(./img/download.jpg);
-}
 
 /* ======================= "" CONTACTO "" ======================*/
 
 .info-contact{
     background-image: url(../img/agamer.jpg);
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #ffffff;
     margin: 1rem;
     border: dashed .1rem rgb(183, 255, 0);
     border-radius: 15px;
     span{
         color: rgb(183, 255, 0);
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
 }
 
@@ -474,11 +491,12 @@ footer {
 form{
     color: #b7ff00;
     font-size: 1.5rem;
+    text-align: center;
     p{
         color: #ffffff;
         font-size: 2rem;
         text-align: center;
-        text-decoration: underline;
+        text-decoration: underline #b7ff00;
         
     }
 }
