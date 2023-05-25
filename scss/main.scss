@@ -52,10 +52,12 @@ a{
     border: 0.1rem solid rgb(183, 255, 0);
 }
 
+/*Animaciones CARD*/
+
 .cards img {
 
     width: 100%;
-    transition: 0.5s;               /*Animaciones CARD*/
+    transition: 0.5s;               
     
 }
 .cards img:hover{
@@ -443,20 +445,51 @@ footer {
     background-image: url(./img/download.jpg);
 }
 
-/* CONTACTO */
-.contact {
-    text-align: center;
-}
+/* ======================= "" CONTACTO "" ======================*/
 
-.redes {
+.info-contact{
+    background-image: url(../img/agamer.jpg);
     text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
     margin: 1rem;
-    padding: 3rem;
-    display: flex;
-    justify-content: space-around;
-    zoom: 2;
-
+    border: dashed .1rem rgb(183, 255, 0);
+    border-radius: 15px;
+    span{
+        color: rgb(183, 255, 0);
+        font-size: 2.5rem;
+    }
 }
+
+.contact-flex{
+    display: flex;
+    justify-content:space-evenly;
+    img{
+    width: 400px;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    }
+}
+form{
+    color: #b7ff00;
+    font-size: 1.5rem;
+    p{
+        color: #ffffff;
+        font-size: 2rem;
+        text-align: center;
+        text-decoration: underline;
+        
+    }
+}
+form input{
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 0px 21px 7px rgba(183,255,0,0.35);
+    -moz-box-shadow: 0px 0px 21px 7px rgba(183,255,0,0.35);
+    box-shadow: 0px 0px 21px 7px rgba(183,255,0,0.35);
+    
+}
+
 
 
 
