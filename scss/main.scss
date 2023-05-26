@@ -834,11 +834,32 @@ form input{
         margin: 0.5rem;
     }
     
-    .experiencias img {
-        width: 100%;
-        height: auto;
-    
+    /* SECCION DE  == " CONTACTO " == */
+
+    .info-contact{
+        font-size: 1.4rem;
+        span{
+            font-size: 1.6rem;
+        }
     }
+    
+    .contact-flex{
+        display: flex;
+        flex-direction: column;
+        img{
+        width: 85%;
+        border-radius: 15px;
+        }
+    }
+    form{
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 1rem;
+        p{
+            font-size: 1.5rem;
+        }
+    }
+    
 
 
 
