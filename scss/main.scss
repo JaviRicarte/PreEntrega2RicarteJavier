@@ -834,7 +834,7 @@ form input{
         margin: 0.5rem;
     }
     
-    /* SECCION DE  == " CONTACTO " == */
+           /* SECCION DE  == " CONTACTO " == */
 
     .info-contact{
         font-size: 1.4rem;
@@ -861,15 +861,6 @@ form input{
     }
     
 
-
-
-
-
-
-
-
-
-
     /* MEDIA ADAPTADO EN LA PAGINA DE PRODUCTOS */
 
     .product {
@@ -889,6 +880,51 @@ form input{
         font-size: 0.7rem;
         margin-bottom: 1rem;
     }
+
+
+    /*  MEDIA ADAPTADO A 425PX EN ==="INFO JUEGOS" ==== */
+
+
+    .gameinfo-style{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    img{
+        width: 300px;
+        height: 350px;
+        margin-left: 4rem;
+    }
+}
+.stylegames{
+    text-align: center;
+    margin: 1rem ;
+    font-size: 1.3rem;
+    label{
+        font-size: 1.4rem;
+    }
+    button{
+        padding: 0.1rem;
+    }
+}
+.infoGOTG{
+    h2{
+        text-decoration: underline #b7ff00;
+        font-size: 1.8rem;
+    }
+    p{
+        font-size: 1rem;
+        margin: 1rem
+    }
+    img{
+        width: 250px;
+    }
+
+}
+
+
+
+
+
 
 
 
