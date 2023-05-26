@@ -1,386 +1,385 @@
 @charset "UTF-8";
-
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: "Dosis", sans-serif;
-    background-image: url(../img/423137.jpg);
+  font-family: "Dosis", sans-serif;
+  background-image: url(../img/423137.jpg);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* NAV */
 .javiFondo {
-    background-image: url(../img/index2.png);
+  background-image: url(../img/index2.png);
 }
 
 .navbar-brand {
-    font-size: 3rem;
-    border: 0.1rem solid #3a2626;
-    border-radius: 20px;
+  font-size: 3rem;
+  border: 0.1rem solid #3a2626;
+  border-radius: 20px;
 }
 
 .navbar-nav .nav-item {
-    font-size: 2rem;
-    margin-left: 2rem;
+  font-size: 2rem;
+  margin-left: 2rem;
 }
 
 .container-fluid a {
-    background: -webkit-gradient(linear, left top, left bottom, from(black), to(red));
-    background: linear-gradient(to bottom, black, red);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(red));
+  background: linear-gradient(to bottom, black, red);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* TÍTULO DE CARDS Y CARDS */
 .title-edit h2 {
-    color: rgb(255, 255, 255);
-    border: dashed 0.1rem rgb(183, 255, 0);
-    font-size: 3rem;
-    text-align: center;
-    margin: 1rem;
-    background-image: url(../img/agamer.jpg);
+  color: rgb(255, 255, 255);
+  border: dashed 0.1rem rgb(183, 255, 0);
+  font-size: 3rem;
+  text-align: center;
+  margin: 1rem;
+  background-image: url(../img/agamer.jpg);
 }
 
 .cards {
-    background-color: #3a2626;
-    width: 14rem;
-    border-radius: 5px;
-    margin: 1rem;
-    border: 0.1rem solid rgb(183, 255, 0);
+  background-color: #3a2626;
+  width: 14rem;
+  border-radius: 5px;
+  margin: 1rem;
+  border: 0.1rem solid rgb(183, 255, 0);
 }
 
 /*Animaciones CARD*/
 .cards img {
-    width: 100%;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
+  width: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .cards img:hover {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .cards-flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .style-title h3 {
-    color: #ffffff;
-    display: block;
-    text-align: center;
-    font-size: 0.99rem;
-    border-bottom: 0.1rem solid rgb(183, 255, 0);
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  font-size: 0.99rem;
+  border-bottom: 0.1rem solid rgb(183, 255, 0);
 }
 
 .cards div {
-    display: block;
-    margin: 1rem;
-    text-align: center;
+  display: block;
+  margin: 1rem;
+  text-align: center;
 }
 
 .style__card h5 {
-    font-size: 1.4rem;
-    margin-left: 2.9rem;
-    margin-right: 2.9rem;
-    padding: 0.2rem;
-    color: rgb(183, 255, 0);
-    background-color: #000000;
-    border-radius: 15px;
+  font-size: 1.4rem;
+  margin-left: 2.9rem;
+  margin-right: 2.9rem;
+  padding: 0.2rem;
+  color: rgb(183, 255, 0);
+  background-color: #000000;
+  border-radius: 15px;
 }
 
 .third {
-    border-radius: 15px;
-    font-size: 1.3rem;
-    margin-top: 0.5rem;
-    border-color: rgb(183, 255, 0);
-    color: #000000;
-    -webkit-box-shadow: 0 0 40px 40px #ffffff inset, 0 0 0 0 #3498db;
-    box-shadow: 0 0 40px 40px #ffffff inset, 0 0 0 0 #3498db;
-    -webkit-transition: all 150ms ease-in-out;
-    transition: all 150ms ease-in-out;
+  border-radius: 15px;
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  border-color: rgb(183, 255, 0);
+  color: #000000;
+  -webkit-box-shadow: 0 0 40px 40px #ffffff inset, 0 0 0 0 #3498db;
+          box-shadow: 0 0 40px 40px #ffffff inset, 0 0 0 0 #3498db;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
 }
 
 .third:hover {
-    -webkit-box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px rgb(183, 255, 0);
-    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px rgb(183, 255, 0);
-    color: #ffffff;
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+  -webkit-box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px rgb(183, 255, 0);
+          box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px rgb(183, 255, 0);
+  color: #ffffff;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .pagination {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .pagination a {
-    color: #000000;
-    font-size: 1rem;
-    padding: 1rem;
-    border: 0.1rem solid rgb(183, 255, 0);
-    margin: 0.2rem;
+  color: #000000;
+  font-size: 1rem;
+  padding: 1rem;
+  border: 0.1rem solid rgb(183, 255, 0);
+  margin: 0.2rem;
 }
 
 .pagination a:hover {
-    color: #ffffff;
-    background-color: #000000;
-    border: 0.1rem solid rgb(183, 255, 0);
+  color: #ffffff;
+  background-color: #000000;
+  border: 0.1rem solid rgb(183, 255, 0);
 }
 
 /* VIDEO y H3 STYLE */
 .video-h3 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .video-h3 .style-h3 span {
-    color: rgb(183, 255, 0);
-    font-size: 3.5rem;
+  color: rgb(183, 255, 0);
+  font-size: 3.5rem;
 }
 
 .video-h3 .style-h3 {
-    color: #ffffff;
-    font-size: 3rem;
-    text-align: center;
-    margin: 10rem 5rem 5rem 5rem;
+  color: #ffffff;
+  font-size: 3rem;
+  text-align: center;
+  margin: 10rem 5rem 5rem 5rem;
 }
 
 .video-h3 .style-video {
-    margin: 1.5rem;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    border-radius: 15px;
+  margin: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 15px;
 }
 
 /* FOOTER GRID*/
 .grid-footer {
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-    grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
-    grid-template-rows: min-content min-content min-content min-content;
-    grid-template-areas: "social       sobrenosotros        ubi    " "faceinsta    info                 infoubi" "faceinsta    ...                  ...    " "copyright    pagos                ...";
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
+  grid-template-rows: min-content min-content min-content min-content;
+  grid-template-areas: "social       sobrenosotros        ubi    " "faceinsta    info                 infoubi" "faceinsta    ...                  ...    " "copyright    pagos                ...";
 }
 
 .grid-footer .grid__social {
-    grid-area: social;
+  grid-area: social;
 }
 
 .grid-footer .grid__faceinsta {
-    grid-area: faceinsta;
+  grid-area: faceinsta;
 }
 
 .grid-footer .grid__pagos {
-    grid-area: pagos;
+  grid-area: pagos;
 }
 
 .grid-footer .grid__sobrenosotros {
-    grid-area: sobrenosotros;
+  grid-area: sobrenosotros;
 }
 
 .grid-footer .grid__info {
-    grid-area: info;
+  grid-area: info;
 }
 
 .grid-footer .grid__copyright {
-    grid-area: copyright;
+  grid-area: copyright;
 }
 
 .grid-footer .grid__ubi {
-    grid-area: ubi;
+  grid-area: ubi;
 }
 
 .grid-footer .grid__infoubi {
-    grid-area: infoubi;
+  grid-area: infoubi;
 }
 
 /*GRID-FOOTER STYLE*/
 .display-none {
-    display: none;
+  display: none;
 }
 
 .grid-footer .grid__faceinsta li {
-    margin-top: 1.5rem;
-    list-style-type: none;
+  margin-top: 1.5rem;
+  list-style-type: none;
 }
 
 .grid-footer .grid__faceinsta img {
-    width: 13%;
-    margin: 1rem;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
+  width: 13%;
+  margin: 1rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .grid-footer .grid__faceinsta img:hover {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
 }
 
 .grid-footer .grid__pagos {
-    width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
 }
 
 footer {
-    color: rgb(183, 255, 0);
-    font-size: 1.5rem;
-    margin: 0.1rem;
-    border-top: 0.1rem solid rgb(183, 255, 0);
-    border-bottom: 0.1rem solid rgb(183, 255, 0);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    text-align: center;
+  color: rgb(183, 255, 0);
+  font-size: 1.5rem;
+  margin: 0.1rem;
+  border-top: 0.1rem solid rgb(183, 255, 0);
+  border-bottom: 0.1rem solid rgb(183, 255, 0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
 }
 
 .grid-footer .grid__infoubi {
-    margin: 1.5rem;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
+  margin: 1.5rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .grid-footer .grid__infoubi:hover {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 /*===========================================================================*/
 /* PAGINA SOBRE NOSOTROS */
 /* GRID SOBRE NOSOTROS*/
 .grid-sobrenosotros {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
-    grid-template-rows: min-content min-content min-content min-content;
-    grid-template-areas: "imgsobre1       psobre1" "psobre2         imgsobre2" "imgsobre3       psobre3" "imgsobre4       imgsobre4";
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
+  grid-template-rows: min-content min-content min-content min-content;
+  grid-template-areas: "imgsobre1       psobre1" "psobre2         imgsobre2" "imgsobre3       psobre3" "imgsobre4       imgsobre4";
 }
 
 .grid-sobrenosotros .grid__imgsobre1 {
-    grid-area: imgsobre1;
+  grid-area: imgsobre1;
 }
 
 .grid-sobrenosotros .grid__psobre1 {
-    grid-area: psobre1;
+  grid-area: psobre1;
 }
 
 .grid-sobrenosotros .grid__psobre2 {
-    grid-area: psobre2;
+  grid-area: psobre2;
 }
 
 .grid-sobrenosotros .grid__imgsobre2 {
-    grid-area: imgsobre2;
+  grid-area: imgsobre2;
 }
 
 .grid-sobrenosotros .grid__psobre3 {
-    grid-area: psobre3;
+  grid-area: psobre3;
 }
 
 .grid-sobrenosotros .grid__imgsobre3 {
-    grid-area: imgsobre3;
+  grid-area: imgsobre3;
 }
 
 .grid-sobrenosotros .grid__imgsobre4 {
-    grid-area: imgsobre4;
+  grid-area: imgsobre4;
 }
 
 /* ================= GRID STYLE SOBRE NOSOTROS =================*/
 .grid-sobrenosotros p {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .grid-sobrenosotros span {
-    color: rgb(183, 255, 0);
-    font-size: 2.5rem;
+  color: rgb(183, 255, 0);
+  font-size: 2.5rem;
 }
 
 .grid-sobrenosotros .grid__imgsobre1 {
-    margin-top: 0.5rem;
-    width: 100%;
-    border-radius: 15px;
+  margin-top: 0.5rem;
+  width: 100%;
+  border-radius: 15px;
 }
 
 .grid-sobrenosotros .grid__psobre1 {
-    text-align: center;
-    margin: 5rem 3rem 5rem 3rem;
-    font-size: 2rem;
+  text-align: center;
+  margin: 5rem 3rem 5rem 3rem;
+  font-size: 2rem;
 }
 
 .grid-sobrenosotros .grid__psobre2 {
-    text-align: center;
-    margin: 5rem 3rem 5rem 3rem;
-    font-size: 3rem;
+  text-align: center;
+  margin: 5rem 3rem 5rem 3rem;
+  font-size: 3rem;
 }
 
 .grid-sobrenosotros .grid__imgsobre2 {
-    width: 100%;
-    border-radius: 15px;
+  width: 100%;
+  border-radius: 15px;
 }
 
 .grid-sobrenosotros .grid__psobre3 {
-    text-align: center;
-    margin: 5rem 3rem 5rem 3rem;
-    font-size: 3rem;
+  text-align: center;
+  margin: 5rem 3rem 5rem 3rem;
+  font-size: 3rem;
 }
 
 .grid-sobrenosotros .grid__imgsobre3 {
-    width: 100%;
-    border-radius: 15px;
+  width: 100%;
+  border-radius: 15px;
 }
 
 .grid-sobrenosotros .grid__imgsobre4 {
-    width: 100%;
-    border-radius: 15px;
-    margin-top: 1rem;
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 1rem;
 }
 
 .h2-style {
-    margin: 1rem;
-    color: rgb(183, 255, 0);
-    font-size: 3rem;
+  margin: 1rem;
+  color: rgb(183, 255, 0);
+  font-size: 3rem;
 }
 
 .exp-flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .experiencias {
-    text-align: center;
-    background-color: #ffffff;
-    width: 9rem;
-    height: auto;
-    padding: 0.8rem;
-    border-radius: 5px;
-    margin: 1rem;
+  text-align: center;
+  background-color: #ffffff;
+  width: 9rem;
+  height: auto;
+  padding: 0.8rem;
+  border-radius: 5px;
+  margin: 1rem;
 }
 
 .experiencias img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 /* ==========================================================================================/*
@@ -391,557 +390,489 @@ footer {
 
 /* PRODUCTOS */
 .product {
-    text-align: center;
-    font-size: 3rem;
-    margin: 0.5rem;
-    color: #ffffff;
-    border-top: 0.1rem solid rgb(183, 255, 0);
-    border-bottom: 0.1rem solid rgb(183, 255, 0);
+  text-align: center;
+  font-size: 3rem;
+  margin: 0.5rem;
+  color: #ffffff;
+  border-top: 0.1rem solid rgb(183, 255, 0);
+  border-bottom: 0.1rem solid rgb(183, 255, 0);
 }
 
 .container-product {
-    display: inline;
+  display: inline;
 }
 
 .container-product img {
-    width: 100%;
-    height: auto;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: 2rem 5rem;
+  width: 100%;
+  height: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 5rem;
 }
 
 .container-product .text h3 {
-    text-align: center;
-    padding: 2rem 10rem;
-    font-size: 2rem;
-    color: #ffffff;
+  text-align: center;
+  padding: 2rem 10rem;
+  font-size: 2rem;
+  color: #ffffff;
 }
 
 .container-product a {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .container-product button {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 /* =======================================================================================*/
 /* OFEERTAS*/
 .h2-styleO {
-    color: #ffffff;
-    text-align: center;
-    font-size: 2.5rem;
-    background-image: url(../img/agamer.jpg);
-    border: dashed 0.1rem #b7ff00;
-    margin: 1rem;
-    border-radius: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 2.5rem;
+  background-image: url(../img/agamer.jpg);
+  border: dashed 0.1rem #b7ff00;
+  margin: 1rem;
+  border-radius: 15px;
 }
-
 .h2-styleO span {
-    color: #b7ff00;
-    font-size: 3rem;
+  color: #b7ff00;
+  font-size: 3rem;
 }
 
 .style__card .ofert {
-    color: #ffffff;
-    background-color: #3498db;
+  color: #ffffff;
+  background-color: #3498db;
 }
 
 .ofert-style {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 i {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 /* ======================= "" CONTACTO "" ======================*/
 .info-contact {
-    background-image: url(../img/agamer.jpg);
-    text-align: center;
-    font-size: 3rem;
-    color: #ffffff;
-    margin: 1rem;
-    border: dashed 0.1rem rgb(183, 255, 0);
-    border-radius: 15px;
+  background-image: url(../img/agamer.jpg);
+  text-align: center;
+  font-size: 3rem;
+  color: #ffffff;
+  margin: 1rem;
+  border: dashed 0.1rem rgb(183, 255, 0);
+  border-radius: 15px;
 }
-
 .info-contact span {
-    color: rgb(183, 255, 0);
-    font-size: 3.5rem;
+  color: rgb(183, 255, 0);
+  font-size: 3.5rem;
 }
 
 .contact-flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
-
 .contact-flex img {
-    width: 400px;
-    border-radius: 15px;
-    margin-bottom: 1rem;
-    margin-left: 2rem;
+  width: 400px;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
 }
 
 form {
-    color: #b7ff00;
-    font-size: 1.5rem;
-    text-align: center;
+  color: #b7ff00;
+  font-size: 1.5rem;
+  text-align: center;
 }
-
 form p {
-    color: #ffffff;
-    font-size: 2rem;
-    text-align: center;
-    -webkit-text-decoration: underline #b7ff00;
-    text-decoration: underline #b7ff00;
+  color: #ffffff;
+  font-size: 2rem;
+  text-align: center;
+  -webkit-text-decoration: underline #b7ff00;
+          text-decoration: underline #b7ff00;
 }
 
 form input {
-    border-radius: 7px;
-    -webkit-box-shadow: 0px 0px 21px 7px rgba(183, 255, 0, 0.35);
-    box-shadow: 0px 0px 21px 7px rgba(183, 255, 0, 0.35);
+  border-radius: 7px;
+  -webkit-box-shadow: 0px 0px 21px 7px rgba(183, 255, 0, 0.35);
+  box-shadow: 0px 0px 21px 7px rgba(183, 255, 0, 0.35);
 }
 
 /*======================      INFO JUEGOS    ==============================*/
 .gameinfo-style {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
-
 .gameinfo-style img {
-    width: 400px;
-    height: 450px;
-    border-radius: 15px;
-    margin: 1rem 0;
+  width: 400px;
+  height: 450px;
+  border-radius: 15px;
+  margin: 1rem 0;
 }
 
 .stylegames {
-    color: #ffffff;
-    text-align: left;
-    margin-top: 5rem;
-    font-size: 1.5rem;
+  color: #ffffff;
+  text-align: left;
+  margin-top: 5rem;
+  font-size: 1.5rem;
 }
-
 .stylegames h2 {
-    -webkit-text-decoration: underline #b7ff00;
-    text-decoration: underline #b7ff00;
+  -webkit-text-decoration: underline #b7ff00;
+          text-decoration: underline #b7ff00;
 }
-
 .stylegames label {
-    -webkit-text-decoration: underline #b7ff00;
-    text-decoration: underline #b7ff00;
-    font-size: 2rem;
+  -webkit-text-decoration: underline #b7ff00;
+          text-decoration: underline #b7ff00;
+  font-size: 2rem;
 }
-
 .stylegames button {
-    border-radius: 15px;
+  border-radius: 15px;
 }
 
 .infoGOTG {
-    color: #ffffff;
-    text-align: center;
+  color: #ffffff;
+  text-align: center;
 }
-
 .infoGOTG h2 {
-    -webkit-text-decoration: underline #b7ff00;
-    text-decoration: underline #b7ff00;
-    font-size: 2.5rem;
+  -webkit-text-decoration: underline #b7ff00;
+          text-decoration: underline #b7ff00;
+  font-size: 2.5rem;
 }
-
 .infoGOTG p {
-    font-size: 2rem;
-    margin: 0 5rem;
+  font-size: 2rem;
+  margin: 0 5rem;
 }
-
 .infoGOTG h3 {
-    border-top: 0.1rem solid #b7ff00;
-    color: #3498db;
+  border-top: 0.1rem solid #b7ff00;
+  color: #3498db;
 }
-
 .infoGOTG img {
-    border-radius: 15px;
-    margin: 1rem;
+  border-radius: 15px;
+  margin: 1rem;
 }
 
 /* ================    TAMAÑO 425px    =============
 ===========================================================*/
 @media screen and (max-width: 425px) {
-
-    /* MEDIA ADAPTADO EN LA PAGINA DE INICIO*/
-    /* NAV */
-    .navbar-brand {
-        font-size: 2rem;
-        color: black;
-        text-decoration: underline;
-    }
-
-    .navbar-nav .nav-item {
-        font-size: 1rem;
-    }
-
-    /* MAIN    SUBTÍTULO 1,2 Y 3           */
-    .description h2 {
-        font-size: 2rem;
-    }
-
-    .container {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
+  /* MEDIA ADAPTADO EN LA PAGINA DE INICIO*/
+  /* NAV */
+  .navbar-brand {
+    font-size: 2rem;
+    color: black;
+    text-decoration: underline;
+  }
+  .navbar-nav .nav-item {
+    font-size: 1rem;
+  }
+  /* MAIN    SUBTÍTULO 1,2 Y 3           */
+  .description h2 {
+    font-size: 2rem;
+  }
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
         -ms-flex-pack: center;
-        justify-content: center;
-        width: 100%;
-    }
-
-    /* CARDS SUBTÍTULO */
-    .title-edit h2 {
-        font-size: 1.8rem;
-    }
-
-    .img {
-        width: 18.5%;
-        margin: 0.1rem;
-        border-radius: 15px;
-        border: 0.1rem solid rgb(183, 255, 0);
-    }
-
-    .cards {
-        width: 8.5rem;
-    }
-
-    .style-title h3 {
-        font-size: 0.8rem;
-    }
-
-    .cards div {
-        margin: 0.5rem;
-    }
-
-    .style__card h5 {
-        margin-left: 1.7rem;
-        margin-right: 1.7rem;
-        padding: 0.1rem;
-        font-size: 0.8rem;
-        color: rgb(183, 255, 0);
-    }
-
-    .third {
-        font-size: 0.7rem;
-        padding-top: 0.1rem;
-        padding-bottom: 0.1rem;
-        margin: 0.1rem;
-    }
-
-    .pagination a {
-        font-size: 0.8rem;
-        text-align: center;
-        padding: 0.5rem;
-        border: 0.1rem solid rgb(183, 255, 0);
-    }
-
-    /* VIDEO y H3 STYLE */
-    .video-h3 {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
+            justify-content: center;
+    width: 100%;
+  }
+  /* CARDS SUBTÍTULO */
+  .title-edit h2 {
+    font-size: 1.8rem;
+  }
+  .img {
+    width: 18.5%;
+    margin: 0.1rem;
+    border-radius: 15px;
+    border: 0.1rem solid rgb(183, 255, 0);
+  }
+  .cards {
+    width: 8.5rem;
+  }
+  .style-title h3 {
+    font-size: 0.8rem;
+  }
+  .cards div {
+    margin: 0.5rem;
+  }
+  .style__card h5 {
+    margin-left: 1.7rem;
+    margin-right: 1.7rem;
+    padding: 0.1rem;
+    font-size: 0.8rem;
+    color: rgb(183, 255, 0);
+  }
+  .third {
+    font-size: 0.7rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    margin: 0.1rem;
+  }
+  .pagination a {
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 0.5rem;
+    border: 0.1rem solid rgb(183, 255, 0);
+  }
+  /* VIDEO y H3 STYLE */
+  .video-h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
         -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-pack: center;
+            flex-direction: column;
+    -webkit-box-pack: center;
         -ms-flex-pack: center;
-        justify-content: center;
-    }
-
-    .video-h3 .style-h3 span {
-        font-size: 1.3rem;
-    }
-
-    .video-h3 .style-h3 {
-        font-size: 1.5rem;
-        text-align: center;
-        margin: 0.5rem;
-    }
-
-    .video-h3 .style-video {
-        width: 365px;
-        height: 150px;
-        border-radius: 15px;
-    }
-
-    /* FOOTER GRID*/
-    .grid-footer {
-        display: grid;
-        grid-template-columns: 33.3% 33.3% 33.3%;
-        grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
-        grid-template-rows: min-content min-content min-content min-content min-content;
-        grid-template-areas: "social           faceinsta            faceinsta    " "sobrenosotros    info                 info" "ubi              infoubi              infoubi   " "copyright        ...                  ... " "pagos            pagos                pagos";
-    }
-
-    /*GRID-FOOTER STYLE*/
-    .grid-footer .grid__faceinsta li {
-        margin-top: 0.1rem;
-    }
-
-    .grid-footer .grid__faceinsta img {
-        width: 10%;
-        margin: 0.5rem;
-    }
-
-    .grid-footer .grid__pagos {
-        width: 100%;
-        height: 25px;
-        margin-bottom: 0.5rem;
-    }
-
-    footer {
-        font-size: 0.6rem;
-    }
-
-    .grid__infoubi iframe {
-        display: none;
-    }
-
-    .display-none {
-        text-align: center;
-        display: block;
-        font-size: 0.6rem;
-    }
-
-    .display-none a {
-        color: aqua;
-    }
-
-    .grid-footer h3 {
-        font-size: 0.7rem;
-        margin: 1rem;
-        text-decoration: underline;
-    }
-
-    .grid-footer h5 {
-        font-size: 0.4rem;
-    }
-
-    /* MEDIA ADAPTADO EN LA PAGINA DE   =="SOBRE NOSOTROS"== */
-    /* MODIFICACION DE GRID*/
-    .grid-sobrenosotros {
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
-        grid-template-rows: min-content min-content min-content min-content min-content min-content min-content min-content;
-        grid-template-areas: "imgsobre1" "psobre1" "imgsobre2" "psobre2" "imgsobre3" "psobre3" "imgsobre4";
-    }
-
-    .grid-sobrenosotros .grid__imgsobre1 {
-        grid-area: imgsobre1;
-    }
-
-    .grid-sobrenosotros .grid__psobre1 {
-        grid-area: psobre1;
-    }
-
-    .grid-sobrenosotros .grid__psobre2 {
-        grid-area: psobre2;
-    }
-
-    .grid-sobrenosotros .grid__imgsobre2 {
-        grid-area: imgsobre2;
-    }
-
-    .grid-sobrenosotros .grid__psobre3 {
-        grid-area: psobre3;
-    }
-
-    .grid-sobrenosotros .grid__imgsobre3 {
-        grid-area: imgsobre3;
-    }
-
-    .grid-sobrenosotros .grid__imgsobre4 {
-        grid-area: imgsobre4;
-    }
-
-    /* ================= GRID STYLE SOBRE NOSOTROS =================*/
-    .grid-sobrenosotros p {
-        color: #ffffff;
-    }
-
-    .grid-sobrenosotros span {
-        font-size: 1.5rem;
-    }
-
-    .grid-sobrenosotros .grid__imgsobre1 {
-        margin-top: 0.5rem;
-        width: 100%;
-        border-radius: 15px;
-    }
-
-    .grid-sobrenosotros .grid__psobre1 {
-        margin: 1rem;
-        font-size: 1.2rem;
-    }
-
-    .grid-sobrenosotros .grid__psobre2 {
-        text-align: center;
-        margin: 1rem;
-        font-size: 1.5rem;
-    }
-
-    .grid-sobrenosotros .grid__psobre3 {
-        margin: 1rem;
-        font-size: 1.5rem;
-    }
-
-    .grid-sobrenosotros .grid__imgsobre4 {
-        border-radius: 15px;
-        margin-top: 1rem;
-    }
-
-    .h2-style {
-        margin: 1rem;
-        color: rgb(183, 255, 0);
-        font-size: 1.5rem;
-    }
-
-    .exp-flex {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-    }
-
-    .experiencias h3 {
-        font-size: 0.7rem;
-    }
-
-    .experiencias {
-        text-align: center;
-        font-size: 0.7rem;
-        background-color: #ffffff;
-        width: 6rem;
-        height: 100%;
-        padding: 0.4rem;
-        border-radius: 5px;
-        margin: 0.5rem;
-    }
-
-    /* SECCION DE  == " CONTACTO " == */
-    .info-contact {
-        font-size: 1.4rem;
-    }
-
-    .info-contact span {
-        font-size: 1.6rem;
-    }
-
-    .contact-flex {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
+            justify-content: center;
+  }
+  .video-h3 .style-h3 span {
+    font-size: 1.3rem;
+  }
+  .video-h3 .style-h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0.5rem;
+  }
+  .video-h3 .style-video {
+    width: 365px;
+    height: 150px;
+    border-radius: 15px;
+  }
+  /* FOOTER GRID*/
+  .grid-footer {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content min-content min-content min-content;
+    grid-template-areas: "social           faceinsta            faceinsta    " "sobrenosotros    info                 info" "ubi              infoubi              infoubi   " "copyright        ...                  ... " "pagos            pagos                pagos";
+  }
+  /*GRID-FOOTER STYLE*/
+  .grid-footer .grid__faceinsta li {
+    margin-top: 0.1rem;
+  }
+  .grid-footer .grid__faceinsta img {
+    width: 10%;
+    margin: 0.5rem;
+  }
+  .grid-footer .grid__pagos {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 0.5rem;
+  }
+  footer {
+    font-size: 0.6rem;
+  }
+  .grid__infoubi iframe {
+    display: none;
+  }
+  .display-none {
+    text-align: center;
+    display: block;
+    font-size: 0.6rem;
+  }
+  .display-none a {
+    color: aqua;
+  }
+  .grid-footer h3 {
+    font-size: 0.7rem;
+    margin: 1rem;
+    text-decoration: underline;
+  }
+  .grid-footer h5 {
+    font-size: 0.4rem;
+  }
+  /* MEDIA ADAPTADO EN LA PAGINA DE   =="SOBRE NOSOTROS"== */
+  /* MODIFICACION DE GRID*/
+  .grid-sobrenosotros {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content min-content min-content min-content min-content min-content min-content;
+    grid-template-areas: "imgsobre1" "psobre1" "imgsobre2" "psobre2" "imgsobre3" "psobre3" "imgsobre4";
+  }
+  .grid-sobrenosotros .grid__imgsobre1 {
+    grid-area: imgsobre1;
+  }
+  .grid-sobrenosotros .grid__psobre1 {
+    grid-area: psobre1;
+  }
+  .grid-sobrenosotros .grid__psobre2 {
+    grid-area: psobre2;
+  }
+  .grid-sobrenosotros .grid__imgsobre2 {
+    grid-area: imgsobre2;
+  }
+  .grid-sobrenosotros .grid__psobre3 {
+    grid-area: psobre3;
+  }
+  .grid-sobrenosotros .grid__imgsobre3 {
+    grid-area: imgsobre3;
+  }
+  .grid-sobrenosotros .grid__imgsobre4 {
+    grid-area: imgsobre4;
+  }
+  /* ================= GRID STYLE SOBRE NOSOTROS =================*/
+  .grid-sobrenosotros p {
+    color: #ffffff;
+  }
+  .grid-sobrenosotros span {
+    font-size: 1.5rem;
+  }
+  .grid-sobrenosotros .grid__imgsobre1 {
+    margin-top: 0.5rem;
+    width: 100%;
+    border-radius: 15px;
+  }
+  .grid-sobrenosotros .grid__psobre1 {
+    margin: 1rem;
+    font-size: 1.2rem;
+  }
+  .grid-sobrenosotros .grid__psobre2 {
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.5rem;
+  }
+  .grid-sobrenosotros .grid__psobre3 {
+    margin: 1rem;
+    font-size: 1.5rem;
+  }
+  .grid-sobrenosotros .grid__imgsobre4 {
+    border-radius: 15px;
+    margin-top: 1rem;
+  }
+  .h2-style {
+    margin: 1rem;
+    color: rgb(183, 255, 0);
+    font-size: 1.5rem;
+  }
+  .exp-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .experiencias h3 {
+    font-size: 0.7rem;
+  }
+  .experiencias {
+    text-align: center;
+    font-size: 0.7rem;
+    background-color: #ffffff;
+    width: 6rem;
+    height: 100%;
+    padding: 0.4rem;
+    border-radius: 5px;
+    margin: 0.5rem;
+  }
+  /* SECCION DE  == " CONTACTO " == */
+  .info-contact {
+    font-size: 1.4rem;
+  }
+  .info-contact span {
+    font-size: 1.6rem;
+  }
+  .contact-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
         -ms-flex-direction: column;
-        flex-direction: column;
-    }
-
-    .contact-flex img {
-        width: 85%;
-        border-radius: 15px;
-    }
-
-    form {
-        font-size: 1rem;
-        text-align: center;
-        margin-bottom: 1rem;
-    }
-
-    form p {
-        font-size: 1.5rem;
-    }
-
-    /* MEDIA ADAPTADO EN LA PAGINA DE PRODUCTOS */
-    .product {
-        font-size: 2rem;
-        margin: 0.2rem;
-    }
-
-    .container-product img {
-        padding: 0.1rem;
-    }
-
-    .container-product .text h3 {
-        padding: 0.5rem 0.5rem;
-        font-size: 1rem;
-        color: #ffffff;
-    }
-
-    .container-product button {
-        font-size: 0.7rem;
-        margin-bottom: 1rem;
-    }
-
-    /*  MEDIA ADAPTADO A 425PX EN ==="INFO JUEGOS" ==== */
-    .gameinfo-style {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
+            flex-direction: column;
+  }
+  .contact-flex img {
+    width: 85%;
+    border-radius: 15px;
+  }
+  form {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  form p {
+    font-size: 1.5rem;
+  }
+  /* MEDIA ADAPTADO EN LA PAGINA DE PRODUCTOS */
+  .product {
+    font-size: 2rem;
+    margin: 0.2rem;
+  }
+  .container-product img {
+    padding: 0.1rem;
+  }
+  .container-product .text h3 {
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+    color: #ffffff;
+  }
+  .container-product button {
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+  }
+  /*  MEDIA ADAPTADO A 425PX EN ==="INFO JUEGOS" ==== */
+  .gameinfo-style {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
         -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
         -ms-flex-direction: column;
-        flex-direction: column;
-    }
-
-    .gameinfo-style img {
-        width: 300px;
-        height: 350px;
-        margin-left: 4rem;
-    }
-
-    .stylegames {
-        text-align: center;
-        margin: 1rem;
-        font-size: 1.3rem;
-    }
-
-    .stylegames label {
-        font-size: 1.4rem;
-    }
-
-    .stylegames button {
-        padding: 0.1rem;
-    }
-
-    .infoGOTG h2 {
-        -webkit-text-decoration: underline #b7ff00;
-        text-decoration: underline #b7ff00;
-        font-size: 1.8rem;
-    }
-
-    .infoGOTG p {
-        font-size: 1rem;
-        margin: 1rem;
-    }
-
-    .infoGOTG img {
-        width: 250px;
-    }
+            flex-direction: column;
+  }
+  .gameinfo-style img {
+    width: 300px;
+    height: 350px;
+    margin-left: 4rem;
+  }
+  .stylegames {
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.3rem;
+  }
+  .stylegames label {
+    font-size: 1.4rem;
+  }
+  .stylegames button {
+    padding: 0.1rem;
+  }
+  .infoGOTG h2 {
+    -webkit-text-decoration: underline #b7ff00;
+            text-decoration: underline #b7ff00;
+    font-size: 1.8rem;
+  }
+  .infoGOTG p {
+    font-size: 1rem;
+    margin: 1rem;
+  }
+  .infoGOTG img {
+    width: 250px;
+  }
+  /* ========== OFERTAS ======  425px */
+  .h2-styleO {
+    font-size: 1.5rem;
+  }
+  .h2-styleO span {
+    font-size: 1.8rem;
+  }
 }
