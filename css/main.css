@@ -567,6 +567,126 @@ form input {
   margin: 1rem;
 }
 
+/*================ MQ PARA TABLET, TAMAÑO 768px ===========================================================*/
+/* ======  MQ INDEX  ======= */
+@media screen and (max-width: 768px) {
+  .video-h3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .video-h3 .style-h3 span {
+    font-size: 3rem;
+  }
+  .video-h3 .style-h3 {
+    font-size: 2.5rem;
+    margin: 2rem;
+  }
+  .video-h3 .style-video {
+    margin: 0.1rem;
+  }
+  /* GRID STYLE*/
+  .grid-footer .grid__faceinsta li {
+    margin-top: 1rem;
+  }
+  .grid-footer .grid__faceinsta img {
+    width: 20%;
+  }
+  .grid-footer .grid__pagos {
+    width: 500px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  footer {
+    font-size: 1.3rem;
+  }
+  /* ===== MQ SOBRE NOSOTROS ======*/
+  .grid-sobrenosotros {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content min-content min-content min-content min-content min-content min-content;
+    grid-template-areas: "imgsobre1" "psobre1" "imgsobre2" "psobre2" "imgsobre3" "psobre3" "imgsobre4";
+  }
+  .experiencias {
+    text-align: center;
+    font-size: 1.3rem;
+    background-color: #ffffff;
+    width: 11rem;
+    height: 100%;
+    padding: 0.4rem;
+    border-radius: 5px;
+    margin: 0.5rem;
+  }
+  .experiencias h3 {
+    font-size: 1.4rem;
+  }
+  /* ============ CONTACTO  768px =============*/
+  .info-contact {
+    font-size: 2rem;
+  }
+  .info-contact span {
+    font-size: 2.5rem;
+  }
+  .contact-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .contact-flex img {
+    width: 450px;
+    height: 550px;
+    margin: 1rem;
+  }
+  form {
+    font-size: 1.2rem;
+  }
+  form p {
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0.6rem;
+  }
+  /* ============= MQ INFO JUEGOS=========*/
+  .gameinfo-style {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .gameinfo-style img {
+    width: 350px;
+    height: 450px;
+    margin-left: 13rem;
+  }
+  .stylegames {
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.8rem;
+  }
+  .stylegames label {
+    font-size: 2rem;
+  }
+  .stylegames button {
+    padding: 0.5rem;
+  }
+  .infoGOTG h2 {
+    font-size: 2rem;
+  }
+  .infoGOTG p {
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  .infoGOTG img {
+    width: 350px;
+  }
+}
 /* ================    TAMAÑO 425px    =============
 ===========================================================*/
 @media screen and (max-width: 425px) {
@@ -708,27 +828,6 @@ form input {
     grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
     grid-template-rows: min-content min-content min-content min-content min-content min-content min-content min-content;
     grid-template-areas: "imgsobre1" "psobre1" "imgsobre2" "psobre2" "imgsobre3" "psobre3" "imgsobre4";
-  }
-  .grid-sobrenosotros .grid__imgsobre1 {
-    grid-area: imgsobre1;
-  }
-  .grid-sobrenosotros .grid__psobre1 {
-    grid-area: psobre1;
-  }
-  .grid-sobrenosotros .grid__psobre2 {
-    grid-area: psobre2;
-  }
-  .grid-sobrenosotros .grid__imgsobre2 {
-    grid-area: imgsobre2;
-  }
-  .grid-sobrenosotros .grid__psobre3 {
-    grid-area: psobre3;
-  }
-  .grid-sobrenosotros .grid__imgsobre3 {
-    grid-area: imgsobre3;
-  }
-  .grid-sobrenosotros .grid__imgsobre4 {
-    grid-area: imgsobre4;
   }
   /* ================= GRID STYLE SOBRE NOSOTROS =================*/
   .grid-sobrenosotros p {
