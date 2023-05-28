@@ -567,6 +567,73 @@ form input {
   margin: 1rem;
 }
 
+/* ======== COMIENZO DE MEDIA QUERIES ============= */
+/*    ============= MQ PARA NOTBOOK 1280 X 800 ============= */
+@media screen and (max-width: 1280px) {
+  .video-h3 .style-h3 span {
+    font-size: 3rem;
+  }
+  .video-h3 .style-h3 {
+    font-size: 2.5rem;
+    text-align: left;
+    margin-top: 6rem;
+    margin-left: 0.5rem;
+    padding: 1rem;
+  }
+  .video-h3 .style-video {
+    margin: 0.5rem;
+    border-radius: 15px;
+    width: 100%;
+    height: 450px;
+  }
+  .grid-footer .grid__faceinsta img {
+    width: 20%;
+  }
+  /* MQ " SOBRE NOSOTROS " ===========1280px */
+  .grid-sobrenosotros {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content min-content min-content min-content;
+    grid-template-areas: "imgsobre1       imgsobre1" "psobre1         psobre1" "psobre2         imgsobre2" "imgsobre3       psobre3" "imgsobre4       imgsobre4";
+  }
+  .grid-sobrenosotros span {
+    font-size: 3rem;
+  }
+  .grid-sobrenosotros .grid__psobre1 {
+    margin: 1rem;
+    margin-bottom: 5rem;
+    border: 0.1rem solid #b7ff00;
+    border-radius: 15px;
+    font-size: 2.69rem;
+  }
+  .h2-style {
+    margin: 1rem;
+    color: rgb(183, 255, 0);
+    font-size: 3rem;
+  }
+  .experiencias {
+    text-align: center;
+    background-color: #ffffff;
+    width: 19rem;
+    padding: 0.5rem;
+    border-radius: 45px;
+    margin: 1rem;
+  }
+  .experiencias p {
+    font-size: 1.8rem;
+  }
+  /*  MQ "CONTACTO" ==========   1280px */
+  form {
+    font-size: 1.2rem;
+  }
+  form p {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    margin-left: 2rem;
+  }
+}
 /*================ MQ PARA TABLET, TAMAÑO 768px ===========================================================*/
 /* ======  MQ INDEX  ======= */
 @media screen and (max-width: 768px) {
@@ -760,9 +827,9 @@ form input {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .video-h3 .style-h3 span {
     font-size: 1.3rem;
@@ -776,6 +843,7 @@ form input {
     width: 365px;
     height: 150px;
     border-radius: 15px;
+    margin-bottom: 1rem;
   }
   /* FOOTER GRID*/
   .grid-footer {
@@ -896,9 +964,12 @@ form input {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .contact-flex img {
-    width: 85%;
+    width: 90%;
     border-radius: 15px;
   }
   form {
