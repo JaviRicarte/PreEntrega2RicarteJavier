@@ -1,0 +1,127 @@
+
+
+
+
+/* PAGINA SOBRE NOSOTROS */
+
+
+/* GRID SOBRE NOSOTROS*/
+
+
+.grid-sobrenosotros {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: min-content min-content min-content min-content;
+    grid-template-areas:
+        "imgsobre1       psobre1"
+        "psobre2         imgsobre2"
+        "imgsobre3       psobre3"
+        "imgsobre4       imgsobre4";
+}
+
+.grid-sobrenosotros .grid__imgsobre1 {
+    grid-area: imgsobre1;
+}
+
+.grid-sobrenosotros .grid__psobre1 {
+    grid-area: psobre1;
+}
+
+.grid-sobrenosotros .grid__psobre2 {
+    grid-area: psobre2;
+}
+
+.grid-sobrenosotros .grid__imgsobre2 {
+    grid-area: imgsobre2;
+}
+
+.grid-sobrenosotros .grid__psobre3 {
+    grid-area: psobre3;
+}
+
+.grid-sobrenosotros .grid__imgsobre3 {
+    grid-area: imgsobre3;
+}
+
+.grid-sobrenosotros .grid__imgsobre4 {
+    grid-area: imgsobre4;
+}
+
+/* ================= GRID STYLE SOBRE NOSOTROS =================*/
+
+.grid-sobrenosotros p {
+    color: #ffffff;
+}
+
+.grid-sobrenosotros span {
+    color: rgb(183, 255, 0);
+    font-size: 2.5rem;
+}
+
+.grid-sobrenosotros .grid__imgsobre1 {
+    margin-top: 0.5rem;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.grid-sobrenosotros .grid__psobre1 {
+    text-align: center;
+    margin: 5rem 3rem 5rem 3rem;
+    font-size: 2rem;
+}
+
+.grid-sobrenosotros .grid__psobre2 {
+    text-align: center;
+    margin: 5rem 3rem 5rem 3rem;
+    font-size: 3rem;
+}
+
+.grid-sobrenosotros .grid__imgsobre2 {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.grid-sobrenosotros .grid__psobre3 {
+    text-align: center;
+    margin: 5rem 3rem 5rem 3rem;
+    font-size: 3rem;
+}
+
+.grid-sobrenosotros .grid__imgsobre3 {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.grid-sobrenosotros .grid__imgsobre4 {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 1rem;
+
+}
+
+
+.h2-style {
+    margin: 1rem;
+    color: rgb(183, 255, 0);
+    font-size: 3rem;
+
+}
+
+.exp-flex {
+    display: flex;
+}
+
+.experiencias {
+    text-align: center;
+    background-color: #ffffff;
+    width: 9rem;
+    height: auto;
+    padding: 0.8rem;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.experiencias img {
+    width: 100%;
+    height: auto;
+}

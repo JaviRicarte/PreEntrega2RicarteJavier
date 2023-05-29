@@ -1,0 +1,39 @@
+
+
+
+            /* PRODUCTOS */         
+
+.product {
+    text-align: center;
+    font-size: 3rem;
+    margin: 0.5rem;
+    color: #ffffff;
+    border-top: 0.1rem solid rgb(183, 255, 0);
+    border-bottom: 0.1rem solid rgb(183, 255, 0);
+}
+.container-product{
+    display: inline;
+    
+}
+
+.container-product img{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding: 2rem 5rem;
+    
+}
+.container-product .text h3{
+    text-align:center;
+    padding: 2rem 10rem;
+    font-size: 2rem;
+    color: #ffffff;
+}
+.container-product a{
+    display: flex;
+    justify-content: center;
+}
+.container-product button{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
