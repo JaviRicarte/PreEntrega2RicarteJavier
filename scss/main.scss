@@ -1,19 +1,19 @@
 
 
 
-    /* SE UTILIZÓ UNA VARIABLE EN EL BODY PARA UNA IMG*/
+/* SE UTILIZÓ UNA VARIABLE EN EL BODY PARA UNA IMG*/
 
-    /* LA VARIABLE DE "$fontcolor" se utilizó en todo el index  */
+/* LA VARIABLE DE "$fontcolor" se utilizó en todo el index  */
 
-    
 
-        /* VARIABLES*/
+
+/* VARIABLES*/
 
 $bgimg: url(../img/423137.jpg);
 
 $fontcolor: #b7ff00;
 
-        /*PARTIALS DE LAS SECCIONES */
+/*PARTIALS DE LAS SECCIONES */
 
 @import "_indexconfooter.scss";
 @import "_sobrenosotros.scss";
@@ -22,10 +22,6 @@ $fontcolor: #b7ff00;
 @import "_ofertas.scss";
 @import "_infojuegos.scss";
 
-        /* MEDIA QUERIES */
+/* MEDIA QUERIES */
 
 @import "_mediaqueries.scss"
-
-
-
-
