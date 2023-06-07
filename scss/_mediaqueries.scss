@@ -105,7 +105,12 @@
         /* ======  MQ INDEX  ======= */
 
         @media screen and (max-width: 768px){
-
+            .navbar-nav .nav-item{
+                font-size: 1.5rem;
+            }
+            .javiBg{
+                font-size: 1rem;
+            }
             .video-h3 {
                 flex-direction: column;
             }
@@ -251,15 +256,19 @@
 
     /* NAV */
 
-    .navbar-brand{
-        font-size: 2rem;
-        color: black;
-        text-decoration: underline;
+
+    .navbar-brand img{
+        height: 100px;
+        width: 100px;
     }
+    
     .navbar-nav .nav-item{
-        font-size: 1rem;
-        
+        font-size: 1.5rem;
     }
+    .javiBg{
+        font-size: 1rem;
+    }
+    
 
 
     /* MAIN    SUBTÍTULO 1,2 Y 3           */

@@ -27,6 +27,11 @@ a {
   font-size: 1rem;
 }
 
+.colorIcon {
+  background-color: #b7ff00;
+  border-radius: 5px;
+}
+
 .navbar-nav .nav-item {
   font-size: 3rem;
   margin-left: 2rem;
@@ -664,6 +669,12 @@ i {
 /*================ MQ PARA TABLET, TAMAÑO 768px ===========================================================*/
 /* ======  MQ INDEX  ======= */
 @media screen and (max-width: 768px) {
+  .navbar-nav .nav-item {
+    font-size: 1.5rem;
+  }
+  .javiBg {
+    font-size: 1rem;
+  }
   .video-h3 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -785,12 +796,14 @@ i {
 @media screen and (max-width: 425px) {
   /* MEDIA ADAPTADO EN LA PAGINA DE INICIO*/
   /* NAV */
-  .navbar-brand {
-    font-size: 2rem;
-    color: black;
-    text-decoration: underline;
+  .navbar-brand img {
+    height: 100px;
+    width: 100px;
   }
   .navbar-nav .nav-item {
+    font-size: 1.5rem;
+  }
+  .javiBg {
     font-size: 1rem;
   }
   /* MAIN    SUBTÍTULO 1,2 Y 3           */

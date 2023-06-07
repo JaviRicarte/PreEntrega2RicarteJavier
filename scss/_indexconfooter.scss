@@ -17,12 +17,17 @@ a{
 
 
 /* NAV */
+
 .javiFondo{
     background-color: #000000;
     border-bottom: 0.1rem solid $fontcolor;
 }
 .navbar-brand{
     font-size: 1rem;
+}
+.colorIcon{
+    background-color: $fontcolor;
+    border-radius: 5px;
 }
 .navbar-nav .nav-item{
     font-size: 3rem;
